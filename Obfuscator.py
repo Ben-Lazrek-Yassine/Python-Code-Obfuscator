@@ -10,7 +10,6 @@ def findFunctionNames(file):
 			function_names.append(name)
 	return function_names
 
-# find variable names outside of strings
 def findVariableNames(file):
 	variable_names = []
 	for _, line in enumerate(open(file)):
